@@ -8,7 +8,7 @@ import { NabVar } from "./js/component/navbar";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <>
         <NabVar />
         <Routes>
